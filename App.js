@@ -9,7 +9,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  WebView
 } from 'react-native';
 
 const instructions = Platform.select({
@@ -23,17 +24,10 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native! TEST
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-      </View>
+      <WebView
+        source={{uri: 'https://devtrader.github.io/RocketFinder'}}
+        style={{marginTop: 20}}
+      />
     );
   }
 }
