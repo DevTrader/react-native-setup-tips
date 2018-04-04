@@ -1,6 +1,7 @@
 # Setup Instructions For Android Virtual Machine:
 https://facebook.github.io/react-native/docs/getting-started.html#running-your-app-on-a-simulator-or-virtual-device
 
+![img](https://github.com/DevTrader/react-native-setup-tips/blob/master/screen.JPG)
 
 ## Notes:
 1. DO run the chocolatey and follow the setup described on react docs when developing on windows machines, it will save you a lot of trouble editing PATHs and finding the correct versions of JDK.
