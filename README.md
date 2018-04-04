@@ -10,3 +10,4 @@ https://facebook.github.io/react-native/docs/getting-started.html#running-your-a
 4. Remember to run: react-native start, then run (on another command console): react-native run-android (after having the virtual android machine up).
 5. After making changes to your code you can press "R" twice on the android virtual machine and it will refresh with your changes.
 
+Here you can find the published version of my [RocketFinder App](https://play.google.com/store/apps/details?id=com.rocketfindernks999)
